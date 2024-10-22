@@ -1,0 +1,167 @@
+/* Basic Styling */
+body {
+    font-family: 'Arial', sans-serif; /* Professional font */
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark gray text color */
+}
+
+header {
+    background-color: #007bff; /* Blue for header */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* White link color */
+    font-weight: bold;
+}
+
+/* Content Styling */
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333; /* Dark gray heading color */
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.profile-picture {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Language Skills Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Subtle table border */
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray for header */
+    font-weight: bold;
+}
+
+/* Additional Styling */
+
+/* Section Headings */
+h2 {
+    margin-top: 30px;
+}
+
+/* Education and Work Experience Lists */
+ul {
+    list-style-type: disc; /* Use a bullet point list */
+    margin-left: 40px; /* Indent the list */
+}
+
+/*  Use Bootstrap's card for Work Experience and Education */
+.work-experience, .education {
+    margin-bottom: 30px;
+}
+
+.work-experience .card-header, .education .card-header {
+    background-color: #007bff; /* Blue for section headers */
+    color: white;
+    font-weight: bold;
+    padding: 10px; /* Add padding */
+}
+
+/*  Customize Technical Skills */
+.technical-skills ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin-left: 0;
+}
+
+.technical-skills ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #e9ecef; /* Light gray background for skills */
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Contact Form */
+#contact-form {
+    margin-top: 30px;
+}
+
+#contact-form button {
+    background-color: #007bff; /* Blue for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact-form button:hover {
+    background-color: #0062cc; /* Darker blue for hover effect */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff; /* Blue footer */
+    color: #fff; /* White footer text */
+}
+
+/* Card Styling */
+.card {
+    border: none; /* Remove default card border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.card-body {
+    padding: 20px; /* More padding */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .profile-picture {
+        width: 100%;
+    }
+
+    /* Adjust layout for smaller screens */
+    .work-experience, .education {
+        margin-bottom: 10px;
+    }
+}
